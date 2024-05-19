@@ -79,21 +79,38 @@
       "inputs": {
         "crane": "crane",
         "flake-parts": "flake-parts",
+        "lair": "lair",
         "nixpkgs": "nixpkgs",
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1716139896,
-        "narHash": "sha256-dJ3iAfMbD4sTiECGojvyiH10AvCgVuZmcmSvrsAI/NE=",
+        "lastModified": 1716143131,
+        "narHash": "sha256-qSFA+5k4d/K74rDgW+GND25R5B4eWQeQ2CRYtxLEI7c=",
         "owner": "jost-s",
         "repo": "holonix-holochain",
-        "rev": "2086a2d01dcd7f4b9c1fe79a51355ee4aa02d137",
+        "rev": "51d8eea935c4233295c68626d6ce6e9e53f07cff",
         "type": "github"
       },
       "original": {
         "owner": "jost-s",
-        "ref": "main-0.2",
+        "ref": "main-0.3",
         "repo": "holonix-holochain",
+        "type": "github"
+      }
+    },
+    "lair": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1716143409,
+        "narHash": "sha256-XYlICSE5kfR9bk+DOfxZsDXjAT0rnLcEATHxAQtDvrY=",
+        "owner": "jost-s",
+        "repo": "holonix-lair",
+        "rev": "c206d6d9f0590b769b7c920bb09b8f4ff73685b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jost-s",
+        "repo": "holonix-lair",
         "type": "github"
       }
     },
